@@ -1,0 +1,322 @@
+{
+  "k": 5,
+  "embedding_kind": "sbert",
+  "fragments_per_cluster": 4,
+  "param_keys": [
+    "lattice",
+    "pillow",
+    "cantilever",
+    "twist",
+    "stack",
+    "porosity"
+  ],
+  "archetype_names": [
+    "lattice_woven",
+    "pillow_skin",
+    "double_cantilever",
+    "twisting_tower",
+    "stepped_pavilion"
+  ],
+  "fragments": [
+    {
+      "fragment_id": "frag-c00-v00",
+      "cluster": 0,
+      "variant": 0,
+      "archetype": "lattice_woven",
+      "params": {
+        "lattice": 0.5165215940680005,
+        "pillow": 0.31579737899933685,
+        "cantilever": 0.7779218513959101,
+        "twist": 0.6860024606510433,
+        "stack": 0.5265993911343494,
+        "porosity": 0.023579277155438658
+      },
+      "cluster_size": 134
+    },
+    {
+      "fragment_id": "frag-c00-v01",
+      "cluster": 0,
+      "variant": 1,
+      "archetype": "lattice_woven",
+      "params": {
+        "lattice": 0.5041402267069003,
+        "pillow": 0.3664592849721208,
+        "cantilever": 0.7242141866641578,
+        "twist": 0.5604498555735077,
+        "stack": 0.724729712580516,
+        "porosity": 0.1691772781158273
+      },
+      "cluster_size": 134
+    },
+    {
+      "fragment_id": "frag-c00-v02",
+      "cluster": 0,
+      "variant": 2,
+      "archetype": "lattice_woven",
+      "params": {
+        "lattice": 0.4998135473144754,
+        "pillow": 0.4675031509239339,
+        "cantilever": 0.7581159216471012,
+        "twist": 0.5600124581018316,
+        "stack": 0.6889844092258929,
+        "porosity": 0.04761006057777099
+      },
+      "cluster_size": 134
+    },
+    {
+      "fragment_id": "frag-c00-v03",
+      "cluster": 0,
+      "variant": 3,
+      "archetype": "lattice_woven",
+      "params": {
+        "lattice": 0.5566829195766994,
+        "pillow": 0.38510145266713386,
+        "cantilever": 0.7124499022412898,
+        "twist": 0.5724978623953825,
+        "stack": 0.7487497480473001,
+        "porosity": 0.10391477889098477
+      },
+      "cluster_size": 134
+    },
+    {
+      "fragment_id": "frag-c01-v00",
+      "cluster": 1,
+      "variant": 0,
+      "archetype": "pillow_skin",
+      "params": {
+        "lattice": 0.2676575728072297,
+        "pillow": 0.46149659854080904,
+        "cantilever": 0.6349314764334093,
+        "twist": 0.5574346659958932,
+        "stack": 0.8284270335980604,
+        "porosity": 0.17049543056636005
+      },
+      "cluster_size": 98
+    },
+    {
+      "fragment_id": "frag-c01-v01",
+      "cluster": 1,
+      "variant": 1,
+      "archetype": "pillow_skin",
+      "params": {
+        "lattice": 0.4475558524195795,
+        "pillow": 0.457696895928062,
+        "cantilever": 0.5618128424096673,
+        "twist": 0.4748894905130563,
+        "stack": 0.8426543103666259,
+        "porosity": 0.21936602084627066
+      },
+      "cluster_size": 98
+    },
+    {
+      "fragment_id": "frag-c01-v02",
+      "cluster": 1,
+      "variant": 2,
+      "archetype": "pillow_skin",
+      "params": {
+        "lattice": 0.28966419832280593,
+        "pillow": 0.42733499368760813,
+        "cantilever": 0.5399561483462881,
+        "twist": 0.5773950766381368,
+        "stack": 0.8515635427705822,
+        "porosity": 0.17835875913717192
+      },
+      "cluster_size": 98
+    },
+    {
+      "fragment_id": "frag-c01-v03",
+      "cluster": 1,
+      "variant": 3,
+      "archetype": "pillow_skin",
+      "params": {
+        "lattice": 0.2510548408484386,
+        "pillow": 0.5023972396896554,
+        "cantilever": 0.6058378400845259,
+        "twist": 0.5471617832614386,
+        "stack": 0.8605357652427145,
+        "porosity": 0.15598964877003602
+      },
+      "cluster_size": 98
+    },
+    {
+      "fragment_id": "frag-c02-v00",
+      "cluster": 2,
+      "variant": 0,
+      "archetype": "double_cantilever",
+      "params": {
+        "lattice": 0.18722031162313796,
+        "pillow": 0.3510132009324326,
+        "cantilever": 0.46653960476238987,
+        "twist": 0.5048208119886772,
+        "stack": 0.708776890701984,
+        "porosity": 0.2401641361506943
+      },
+      "cluster_size": 282
+    },
+    {
+      "fragment_id": "frag-c02-v01",
+      "cluster": 2,
+      "variant": 1,
+      "archetype": "double_cantilever",
+      "params": {
+        "lattice": 0.10677027640760964,
+        "pillow": 0.30156121669117625,
+        "cantilever": 0.4270412892682231,
+        "twist": 0.565276527966387,
+        "stack": 0.7501696199933536,
+        "porosity": 0.33032060611710906
+      },
+      "cluster_size": 282
+    },
+    {
+      "fragment_id": "frag-c02-v02",
+      "cluster": 2,
+      "variant": 2,
+      "archetype": "double_cantilever",
+      "params": {
+        "lattice": 0.021895478194998985,
+        "pillow": 0.32284071396920594,
+        "cantilever": 0.45769396141144136,
+        "twist": 0.5016661993751288,
+        "stack": 0.8605636586773805,
+        "porosity": 0.31807542775970016
+      },
+      "cluster_size": 282
+    },
+    {
+      "fragment_id": "frag-c02-v03",
+      "cluster": 2,
+      "variant": 3,
+      "archetype": "double_cantilever",
+      "params": {
+        "lattice": 0.1152856071507147,
+        "pillow": 0.3139180405816905,
+        "cantilever": 0.5063595585420917,
+        "twist": 0.44723933343826633,
+        "stack": 0.7214797554582262,
+        "porosity": 0.18321101631546174
+      },
+      "cluster_size": 282
+    },
+    {
+      "fragment_id": "frag-c03-v00",
+      "cluster": 3,
+      "variant": 0,
+      "archetype": "twisting_tower",
+      "params": {
+        "lattice": 0.23776619393037057,
+        "pillow": 0.2471982609731878,
+        "cantilever": 0.4762144577683408,
+        "twist": 0.7400616405165865,
+        "stack": 0.7066114738397048,
+        "porosity": 0.17954353849925872
+      },
+      "cluster_size": 91
+    },
+    {
+      "fragment_id": "frag-c03-v01",
+      "cluster": 3,
+      "variant": 1,
+      "archetype": "twisting_tower",
+      "params": {
+        "lattice": 0.34591918152819695,
+        "pillow": 0.19074275110900762,
+        "cantilever": 0.49821892287242003,
+        "twist": 0.6453928498571772,
+        "stack": 0.7111053898237071,
+        "porosity": 0.1417241075440057
+      },
+      "cluster_size": 91
+    },
+    {
+      "fragment_id": "frag-c03-v02",
+      "cluster": 3,
+      "variant": 2,
+      "archetype": "twisting_tower",
+      "params": {
+        "lattice": 0.2184190787592506,
+        "pillow": 0.24648508254441504,
+        "cantilever": 0.43338649242921057,
+        "twist": 0.6926022540427809,
+        "stack": 0.7701714252066758,
+        "porosity": 0.19970294244598483
+      },
+      "cluster_size": 91
+    },
+    {
+      "fragment_id": "frag-c03-v03",
+      "cluster": 3,
+      "variant": 3,
+      "archetype": "twisting_tower",
+      "params": {
+        "lattice": 0.3487048115785784,
+        "pillow": 0.20550302497376466,
+        "cantilever": 0.43661377440031046,
+        "twist": 0.6861473909683948,
+        "stack": 0.6184057487062,
+        "porosity": 0.06714788705427262
+      },
+      "cluster_size": 91
+    },
+    {
+      "fragment_id": "frag-c04-v00",
+      "cluster": 4,
+      "variant": 0,
+      "archetype": "stepped_pavilion",
+      "params": {
+        "lattice": 0.1015622350549968,
+        "pillow": 0.3140024940934115,
+        "cantilever": 0.6325428846021269,
+        "twist": 0.6487076545529785,
+        "stack": 0.7223784897828912,
+        "porosity": 0.3075534009913332
+      },
+      "cluster_size": 130
+    },
+    {
+      "fragment_id": "frag-c04-v01",
+      "cluster": 4,
+      "variant": 1,
+      "archetype": "stepped_pavilion",
+      "params": {
+        "lattice": 0.16921272994550515,
+        "pillow": 0.4354358618182113,
+        "cantilever": 0.5392054511307949,
+        "twist": 0.6977105593774486,
+        "stack": 0.6823483247219078,
+        "porosity": 0.19287510483326928
+      },
+      "cluster_size": 130
+    },
+    {
+      "fragment_id": "frag-c04-v02",
+      "cluster": 4,
+      "variant": 2,
+      "archetype": "stepped_pavilion",
+      "params": {
+        "lattice": 0.2529727775418227,
+        "pillow": 0.2628973424020508,
+        "cantilever": 0.6349683437796964,
+        "twist": 0.7287326805914423,
+        "stack": 0.7072593716668729,
+        "porosity": 0.11538337033911683
+      },
+      "cluster_size": 130
+    },
+    {
+      "fragment_id": "frag-c04-v03",
+      "cluster": 4,
+      "variant": 3,
+      "archetype": "stepped_pavilion",
+      "params": {
+        "lattice": 0.19920027345977584,
+        "pillow": 0.34674528239104907,
+        "cantilever": 0.6208460235263156,
+        "twist": 0.7136208386148237,
+        "stack": 0.8609743909581126,
+        "porosity": 0.19985252622319696
+      },
+      "cluster_size": 130
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "doc2vec": {
+    "method": "Doc2Vec (PV-DM, 200-D)",
+    "n_items": 735,
+    "n_features": 200,
+    "silhouette": 0.35298946499824524,
+    "mean_intra_source_topk_purity": 0.9401360544217687,
+    "coverage": 1.0,
+    "fit_seconds": 2.21,
+    "notes": [
+      "Trained from scratch on ~750 docs — vocabulary clipped at min_count=2.",
+      "Captures local word-order context (PV-DM); good on long Wikidata extracts.",
+      "Suffers on Bilibili danmaku — short, slang-heavy lines have <5 in-vocab tokens."
+    ]
+  },
+  "sbert": {
+    "method": "Sentence-BERT (multilingual MiniLM, 384-D)",
+    "n_items": 735,
+    "n_features": 384,
+    "silhouette": 0.22092024981975555,
+    "mean_intra_source_topk_purity": 0.9455782312925171,
+    "coverage": 1.0,
+    "fit_seconds": 91.25135009997757,
+    "notes": [
+      "Frozen pretrained transformer — no per-corpus training cost.",
+      "Multilingual: zh/en text land in a single space, so the few English",
+      "Wikidata fall-backs cluster with their Chinese counterparts.",
+      "Tends to over-cluster on register (encyclopaedic vs casual chat)."
+    ]
+  }
+}
